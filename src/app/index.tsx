@@ -50,15 +50,15 @@ export default function Index() {
           source={require("../assets/image/supinoreto.gif")}
         />
 
-        <View style={styles.description}>
-          <Text>O supino reto é um exercício fundamental de 
+        
+          <Text style={styles.textDescription}>O supino reto é um exercício fundamental de 
             musculação para o peitoral, realizado deitado em um
             banco horizontal. Consiste em empurrar uma barra ou 
             halteres para cima, partindo da altura do peito, 
             focado no desenvolvimento do peitoral maior, tríceps e 
             deltoides anteriores, 
             mantendo os pés firmes no chão e escápulas travadas</Text>
-        </View>
+        
         <TouchableOpacity style={styles.guardButton}>
           <Text>Guardar</Text>
         </TouchableOpacity>

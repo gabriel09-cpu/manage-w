@@ -85,5 +85,17 @@ export const styles = StyleSheet.create({
     borderRadius: 16,
     alignSelf: 'center'
 
-   }
+   },
+
+   textDescription: {
+    color: "#fff",
+    textAlign: 'center',
+    marginInlineStart: 10,
+    marginHorizontal: 10,
+    marginBottom: 10,
+    marginTop: 12,
+    backgroundColor: "#6d6d6d",
+    borderRadius: 10,
+     
+  },
 });
