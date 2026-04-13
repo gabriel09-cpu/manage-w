@@ -44,7 +44,7 @@ export default function Index() {
       {/* RESPOSTA DA API  */}
       <View style={styles.apiResponse}>
 
-        <Text>Supino Reto(Com barra)</Text>
+        <Text style={styles.titleResponse}>Supino Reto(Com barra)</Text>
         <Image
           style={{ width: 190, height: 190 }}
           source={require("../assets/image/supinoreto.gif")}
@@ -58,7 +58,7 @@ export default function Index() {
             focado no desenvolvimento do peitoral maior, tríceps e 
             deltoides anteriores, 
             mantendo os pés firmes no chão e escápulas travadas</Text>
-        
+        <View style={styles.buttons}>
         <TouchableOpacity style={styles.guardButton}>
           <Text>Guardar</Text>
         </TouchableOpacity>
@@ -66,6 +66,7 @@ export default function Index() {
           <TouchableOpacity style={styles.ignoreButtons}>
           <Text>Ignorar</Text>
         </TouchableOpacity>
+        </View>
       </View>
     </View>
   );

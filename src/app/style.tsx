@@ -61,41 +61,60 @@ export const styles = StyleSheet.create({
   searchButton: {
     width: 200,
     height: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: "#e5e5e5",
-    borderRadius:10,
+    borderRadius: 10,
     marginTop: 18,
   },
 
   textButton: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     fontFamily: "GoogleSans-Bold",
-  }, 
+  },
 
   apiResponse: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: "#404040",
     width: 340,
     height: 390,
     borderRadius: 16,
-    alignSelf: 'center'
+    alignSelf: "center",
+  },
 
-   },
-
-   textDescription: {
+  textDescription: {
     color: "#fff",
-    textAlign: 'center',
+    textAlign: "center",
     marginInlineStart: 10,
     marginHorizontal: 10,
     marginBottom: 10,
     marginTop: 12,
     backgroundColor: "#6d6d6d",
     borderRadius: 10,
-     
+  },
+
+  titleResponse: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: 'bold'
+  },
+
+  buttons: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+
+  ignoreButtons: {
+    flex: 1,
+    marginRight: 5,
+  },
+
+  guardButton: {
+    flex: 1,
+    marginLeft: 5,
   },
 });
