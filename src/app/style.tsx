@@ -80,8 +80,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#404040",
-    width: 340,
-    height: 390,
+    padding: 12,
     borderRadius: 16,
     alignSelf: "center",
   },
@@ -89,32 +88,55 @@ export const styles = StyleSheet.create({
   textDescription: {
     color: "#fff",
     textAlign: "center",
+    fontSize: 18,
+    fontWeight: "bold",
     marginInlineStart: 10,
     marginHorizontal: 10,
     marginBottom: 10,
-    marginTop: 12,
+    marginTop: 20,
     backgroundColor: "#6d6d6d",
     borderRadius: 10,
+    fontFamily: "GoogleSans-Bold"
   },
 
   titleResponse: {
     color: "#fff",
     fontSize: 18,
-    fontWeight: 'bold'
+    fontWeight: "bold",
+    marginTop: 20,
   },
 
   buttons: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    gap: 16,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 30,
   },
 
   ignoreButtons: {
-    flex: 1,
-    marginRight: 5,
+    backgroundColor: "#ff0000",
+    borderRadius: 16,
+    width: 100,
+    height: 40,
+    justifyContent: "center", // 🔥 centraliza vertical
+    alignItems: "center", // 🔥 centraliza horizontal
   },
 
-  guardButton: {
-    flex: 1,
-    marginLeft: 5,
+  guardButtons: {
+    backgroundColor: "#fff",
+    borderRadius: 13,
+    width: 100,
+    height: 40,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  textIgnore: {
+    color: "#ffffff",
+  },
+
+  textGuard: {
+    color: "#000000",
   },
 });

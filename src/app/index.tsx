@@ -59,12 +59,12 @@ export default function Index() {
             deltoides anteriores, 
             mantendo os pés firmes no chão e escápulas travadas</Text>
         <View style={styles.buttons}>
-        <TouchableOpacity style={styles.guardButton}>
-          <Text>Guardar</Text>
+        <TouchableOpacity style={styles.guardButtons}>
+          <Text style={styles.textGuard}>Guardar</Text>
         </TouchableOpacity>
 
           <TouchableOpacity style={styles.ignoreButtons}>
-          <Text>Ignorar</Text>
+          <Text style={styles.textIgnore}>Ignorar</Text>
         </TouchableOpacity>
         </View>
       </View>
